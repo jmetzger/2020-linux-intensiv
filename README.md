@@ -6,9 +6,20 @@
 # Verzeichnis wechseln 
 cd /
 
+# In das Heimat oder User-Verzeichnis wechseln
+cd
+
 # Verzeichnisliste anzeigen 
 ls -l 
+
 # Liste mit versteckten Dateien 
 ls -la
 
+```
+
+## Hilfe ## 
+
+```
+man ls 
+# (Verlassen mit q )
 ```
