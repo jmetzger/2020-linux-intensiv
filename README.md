@@ -5,6 +5,9 @@
    1. [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
    1. [Hilfe](hilfe.md)
+   1. [Benutzer](benutzer.md)
+   1. [Ausgabe von Dateien](file-ausgabe.md)
+   1. [Suche](suche.md)
 
 ## 1 Grundlagen
 
