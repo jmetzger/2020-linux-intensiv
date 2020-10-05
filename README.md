@@ -26,7 +26,16 @@ which ls
 which command 
 ```
 
+### Variable setzen 
 
+```
+LISTE=ls 
+echo $LISTE 
+# Kommando ausführen 
+$LISTE 
+# mit Argumenten 
+$LISTE -la 
+```
 
 ### Return Values 
 
