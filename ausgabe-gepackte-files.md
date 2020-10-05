@@ -1,4 +1,4 @@
-## Entpacken von Files / Ausgaben von gepackten files 
+## 8 Ausgabe von gepackten files / Entpacken von Files  
 
 ### zcat und gzip -d
 
