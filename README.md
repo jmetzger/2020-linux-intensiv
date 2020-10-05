@@ -187,9 +187,10 @@ mkdir /home/user/training2
 mkdir -p daten/2020/dezember 
 
 ```
-## Hintergrund '.' und '..' 
 
 ```
+## Hintergrund '.' und '..' 
+
 . = aktuelles Verzeichnis 
 .. = übergeordnetes Verzeichnis 
 
@@ -203,7 +204,7 @@ drwxr-xr-x 24 nobleprog nobleprog 4096 Oct  5 09:22 ..
 ```
 # Leeres Verzeichnis löschen 
 rmdir verzeichnisname 
-
+```
 
 ## Datei anlegen/löschen  
 
