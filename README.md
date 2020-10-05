@@ -256,3 +256,9 @@ grep 'voice box system' /etc/services
 # durchsucht alle order recursive 
 grep -r muster /verzeichnis 
 ```
+
+### Suche - egal ob gross oder klein 
+
+```
+grep -ir VOICE /etc | grep services
+```
