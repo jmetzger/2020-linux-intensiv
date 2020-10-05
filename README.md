@@ -38,6 +38,16 @@ history
 !244  # Achtung wird direkt ausführt 
 ```
 
+### Umgebungsvariablen anzeigen 
+
+```
+# Alle 
+env 
+# eine spezielle, z.B 
+echo $PATH 
+```
+
+
 ### Ein Programm verlassen 
 
 ```
