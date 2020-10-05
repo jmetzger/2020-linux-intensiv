@@ -82,6 +82,20 @@ sudo su
 sudo su -
 ```
 
+### Variablen setzen und Variablen mit Funktionsausgaben setzen (Ausgabe des ausgeführten Programms) 
+
+```
+date 
+# keine Ausgabe des Datums 
+DATUM=date
+# Ausgabe des datums 
+DATUM=$(date) 
+# direkt im echo 
+echo $(date) 
+```
+
+
+
 ## Verzeichnis wechseln und Liste anzeigen 
 ```
 # Verzeichnis wechseln 
