@@ -262,3 +262,9 @@ grep -r muster /verzeichnis
 ```
 grep -ir VOICE /etc | grep services
 ```
+
+### Suche - alle Zeilen die nicht mit einem # anfangen 
+
+```
+cat services | grep -v '^#' 
+```
