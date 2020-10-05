@@ -7,7 +7,7 @@
    1. [Hilfe](hilfe.md)
    1. [Benutzer](benutzer.md)
    1. [Ausgabe von Dateien](ausgabe-von-dateien.md)
-   1. [Ausgabe von gepackten Files / Entpacken von Files](ausgabe-von-gepackten-files.md)
+   1. [Ausgabe von gepackten Files / Entpacken von Files](ausgabe-gepackte-files.md)
    1. [Suche](suche.md)
 
 ## 1 Grundlagen
