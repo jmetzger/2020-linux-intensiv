@@ -51,11 +51,11 @@ ls -la  | less
 mkdir training  
 mkdir /home/user/training2 
 
+# Verzeichnisstruktur anlegen (-p)  
+mkdir -p daten/2020/dezember 
+
+```
 ## Hintergrund '.' und '..' 
-```
-
-
-```
 . = aktuelles Verzeichnis 
 .. = übergeordnetes Verzeichnis 
 
