@@ -1,6 +1,4 @@
-# Linux Einführung 
-
-## Suche 
+## 9 Suche 
 
 ### Suche in Files mit grep 
 
