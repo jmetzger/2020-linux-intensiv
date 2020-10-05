@@ -63,6 +63,11 @@ rm -i dateiname
 
 # Löschen ohne Nachfrage 
 rm dateiname 
+
+# Ausgabe - keine Berechtigung 
+nobleprog@jochen-g14d:/$ rm vmlinuz.old 
+rm: cannot remove 'vmlinuz.old': Permission denied
+
 ```
 
 ## Hilfe ## 
