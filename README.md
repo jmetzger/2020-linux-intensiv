@@ -50,6 +50,11 @@ drwxrwxr-x  2 nobleprog nobleprog 4096 Oct  5 09:22 .
 drwxr-xr-x 24 nobleprog nobleprog 4096 Oct  5 09:22 ..
 ```
 
+## Datei anlegen 
+
+```
+touch dateiname 
+```
 
 ## Hilfe ## 
 
