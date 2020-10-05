@@ -111,10 +111,14 @@ rm -R verzeichnis
 ```
 
 ```
-# Umbenennen Datei/Verzeichnis
+# Umbenennen und Kopieren Datei/Verzeichnis
 mv dateiname neuer_dateiname 
 mv verzeichnis neues_verzeichnis 
-cp dateiname neuer_dateiname 
+cp dateiname neuer_dateiname
+
+# Verzeichnis kopieren
+cp -r verzeichnis verteichnis_neu 
+
 ```
 
 
