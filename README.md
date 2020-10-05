@@ -4,6 +4,19 @@
 
 https://www.computerweekly.com/de/meinung/Das-beste-Server-Betriebssystem-Vergleich-zwischen-Linux-und-Windows#:~:text=Linux%20kommt%20im%20Data%20Center,viele%20verschiedene%20Einsatzzwecke%20zu%20verwenden.
 
+## Bash Specials 
+
+```
+# Zeigt Heimatverzeichnis des aktuell eingeloggten Nutzers an 
+echo ~
+# Ausgeführte Befehle während meiner Session 
+history 
+# Bestimmten Befehl aus der History ausführen:
+# !nr 
+# Beispiel 
+!244  # Achtung wird direkt ausführt 
+```
+
 
 ## Verzeichnis wechseln und Liste anzeigen 
 ```
