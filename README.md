@@ -115,6 +115,12 @@ befehl -h
 Beispiel:
 ls --help 
 
+# nach befehlen suchen 
+apropos befehl 
+# copy soll nur in der Überschrift vorkommen 
+# Ausgabe durch pager 
+apropos copy files | grep copy | less
+
 ```
 
 ## Benutzer ##
