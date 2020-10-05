@@ -1,5 +1,9 @@
 # Linux Einführung 
 
+  1 Grundlagen
+  1 Bash - Programmierung 
+  
+
 ## 1 Grundlagen
 
 ### Wann Linux, wann Windows ? 
