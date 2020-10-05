@@ -49,6 +49,11 @@ drwxr-xr-x 24 nobleprog nobleprog 4096 Oct  5 09:22 ..
 man ls 
 # (Verlassen mit q )
 
+### Suchen in der Hilfe 
+/suchbegriff + Enter 
+# nächster Vorkommen Taste ->  
+n (wie next) 
+
 befehl --help 
 oder 
 befehl -h 
