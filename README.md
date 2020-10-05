@@ -33,6 +33,17 @@ echo $?
 127 
 ```
 
+### In den root-Benutzer (Administrator) wechseln 
+
+
+```
+# Hat alle rechte wie Administrator unter Windows 
+sudo su 
+
+# oder mit ins Heimatverzeichnis wechseln
+sudo su -
+```
+
 ## Verzeichnis wechseln und Liste anzeigen 
 ```
 # Verzeichnis wechseln 
