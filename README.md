@@ -29,3 +29,13 @@ ls -la
 man ls 
 # (Verlassen mit q )
 ```
+
+## Benutzer ##
+
+```
+# Wer bin ich / Unter welchem Benutzer bin ich eingeloggt  
+whoami 
+
+# Mehr über mich
+id
+```
