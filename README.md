@@ -43,7 +43,7 @@ ls -la  | less
 
 ```
 
-## Verzeichnis anlegen, löschen und umbenennen 
+## Verzeichnis/Datei  anlegen, löschen und umbenennen 
 
 ```
 
@@ -56,6 +56,8 @@ mkdir -p daten/2020/dezember
 
 ```
 ## Hintergrund '.' und '..' 
+
+```
 . = aktuelles Verzeichnis 
 .. = übergeordnetes Verzeichnis 
 
@@ -74,7 +76,7 @@ rmdir verzeichnisname
 ## Datei anlegen/löschen  
 
 ```
-# Anlegen 
+# Anlegen Datei 
 touch dateiname
 
 # Löschen mit Nachfrage 
@@ -92,6 +94,14 @@ rm -r verzeichnis
 rm -R verzeichnis 
 
 ```
+
+```
+# Umbenennen Datei/Verzeichnis
+mv dateiname neuer_dateiname 
+mv verzeichnis neues_verzeichnis 
+cp dateiname neuer_dateiname 
+```
+
 
 ## Hilfe ## 
 
