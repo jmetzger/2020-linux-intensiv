@@ -55,6 +55,21 @@ $LISTE
 $LISTE -la 
 ```
 
+### Variablen auswerten (ja/nein) 
+
+```
+# Einfache Hochkommas -> kein Auswertung 
+
+root@jochen-g14d:/var/log# echo 'Das ist mein Pfad $PATH' 
+
+root@jochen-g14d:/var/log# echo "Das ist mein Pfad $PATH" 
+Das ist mein Pfad /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+root@jochen-g14d:/var/log# echo "Das ist mein Pfad $(date)" 
+Das ist mein Pfad Mon 05 Oct 2020 01:20:57 PM UTC
+root@jochen-g14d:/var/log# echo "Das ist mein Pfad $PATH" 
+```
+
+
 ### Return Values 
 
 ```
