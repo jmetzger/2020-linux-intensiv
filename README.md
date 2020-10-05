@@ -30,6 +30,14 @@ ls -la  | less
 
 ```
 
+## Verzeichnis anlegen, löschen und umbenennen 
+
+```
+
+# mit relativem Pfad / im aktuellen Verzeichnis 
+mkdir training  
+mkdir /home/user/training2 
+
 ## Hintergrund '.' und '..' 
 
 ```
