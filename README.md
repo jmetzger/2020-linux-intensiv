@@ -17,6 +17,21 @@ history
 !244  # Achtung wird direkt ausführt 
 ```
 
+### Return Values 
+
+```
+# Every command has a return value 
+# 0 = success 
+# 0 <> failure 
+example 
+date
+echo $?
+0
+
+keinbefehl
+echo $?
+127 
+```
 
 ## Verzeichnis wechseln und Liste anzeigen 
 ```
