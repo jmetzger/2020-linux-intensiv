@@ -17,6 +17,17 @@ history
 !244  # Achtung wird direkt ausführt 
 ```
 
+### PATH / Wo werden Kommandos gesucht ? 
+
+```
+env
+echo $PATH 
+which ls 
+which command 
+```
+
+
+
 ### Return Values 
 
 ```
