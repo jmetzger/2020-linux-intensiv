@@ -94,6 +94,14 @@ DATUM=$(date)
 echo $(date) 
 ```
 
+```
+# Direkt in ein File schreiben 
+root@jochen-g14d:/var/log# echo $(date)' eine wunderbare Zeit' >> training.log 
+root@jochen-g14d:/var/log# cat training.log
+heute ist ein schöner tag
+Mon 05 Oct 2020 01:16:15 PM UTC eine wunderbare Zeit
+root@jochen-g14d:/var/log# 
+```
 
 
 ## Verzeichnis wechseln und Liste anzeigen 
