@@ -9,6 +9,12 @@ cd /
 # In das Heimat oder User-Verzeichnis wechseln
 cd
 
+# Ein Verzeichnis höher wechseln 
+cd ..
+
+# Verzeichnis anzeigen, in dem ich bin 
+pwd 
+
 # Verzeichnisliste anzeigen 
 ls -l 
 
