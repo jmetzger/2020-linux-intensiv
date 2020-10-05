@@ -104,6 +104,10 @@ man ls
 # nächster Vorkommen Taste ->  
 n (wie next) 
 
+# hilfeseite des man - kommandos 
+man man 
+
+
 befehl --help 
 oder 
 befehl -h 
