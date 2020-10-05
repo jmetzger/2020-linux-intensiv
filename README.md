@@ -5,8 +5,7 @@
 https://www.computerweekly.com/de/meinung/Das-beste-Server-Betriebssystem-Vergleich-zwischen-Linux-und-Windows#:~:text=Linux%20kommt%20im%20Data%20Center,viele%20verschiedene%20Einsatzzwecke%20zu%20verwenden.
 
 
-## Ins Top-Level - Verzeichnis wechseln 
-
+## Verzeichnis wechseln und Liste anzeigen 
 ```
 # Verzeichnis wechseln 
 cd /
@@ -33,6 +32,14 @@ ls -la
 ```
 man ls 
 # (Verlassen mit q )
+
+befehl --help 
+oder 
+befehl -h 
+
+Beispiel:
+ls --help 
+
 ```
 
 ## Benutzer ##
