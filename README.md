@@ -116,6 +116,15 @@ mv dateiname neuer_dateiname
 mv verzeichnis neues_verzeichnis 
 cp dateiname neuer_dateiname
 
+# Beim Kopieren alle Rechte übernehmen und Verzeichnis kopieren.
+```
+# in den meisten fällen besser als nur:
+# cp verzeichnis -> weil rechte übernommen werden. 
+cp -a verzeichnis verzeichnis_neu
+cp -a datei datei_neu 
+```
+
+
 # Verzeichnis kopieren
 cp -r verzeichnis verteichnis_neu 
 
