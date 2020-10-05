@@ -234,4 +234,7 @@ grep 'voice box system' /etc/services
 
 ### Suche über alle Files (Schweizer Taschenmesser) 
 
-
+```
+# durchsucht alle order recursive 
+grep -r muster /verzeichnis 
+```
