@@ -227,3 +227,11 @@ grep: box: No such file or directory
 grep: system: No such file or directory
 root@jochen-g14d:/etc# cat services | grep 'voice box system'
 ```
+
+```
+grep 'voice box system' /etc/services
+```
+
+### Suche über alle Files (Schweizer Taschenmesser) 
+
+
