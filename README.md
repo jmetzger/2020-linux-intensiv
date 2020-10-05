@@ -167,10 +167,18 @@ cd
 
 # Ein Verzeichnis höher wechseln 
 cd ..
+```
 
+### In welchem Verzeichnis bin ich ?
+
+```
 # Verzeichnis anzeigen, in dem ich bin 
 pwd 
+```
 
+### Verzeichnis - Liste 
+
+```
 # Verzeichnisliste anzeigen 
 ls -l 
 
@@ -212,7 +220,7 @@ mkdir -p daten/2020/dezember
 rmdir verzeichnisname 
 ```
 
-## Verzeichnis / Datei anlegen/löschen  
+### Datei anlegen/löschen  
 
 ```
 # Anlegen Datei 
@@ -246,13 +254,16 @@ cp -a verzeichnis verzeichnis_neu
 cp -a datei datei_neu 
 ```
 
-# Verzeichnis kopieren
-cp -r verzeichnis verteichnis_neu 
+### Verzeichnis kopieren
 
+```
+cp -r verzeichnis verteichnis_neu 
 ```
 
 
 ## Hilfe
+
+### Man - Seiten 
 
 ```
 man ls 
@@ -265,15 +276,22 @@ n (wie next)
 
 # hilfeseite des man - kommandos 
 man man 
+```
 
+### --help / -h - Schalter in Befehlen 
 
+```
 befehl --help 
 oder 
 befehl -h 
 
 Beispiel:
 ls --help 
+```
 
+### Befehle suchen mit apropos 
+
+```
 # nach befehlen suchen 
 apropos befehl 
 # copy soll nur in der Überschrift vorkommen 
@@ -284,16 +302,23 @@ apropos copy files | grep copy | less
 
 ## Benutzer ##
 
+### Wer bin ich (der eingeloggte Nutzer) ? 
+
 ```
 # Wer bin ich / Unter welchem Benutzer bin ich eingeloggt  
 whoami 
+```
 
+### Mehr über mich:
+
+```
 # Mehr über mich
 id
 ```
 
 ## Ausgabe von Dateien 
 
+### Cat und Less (pager) 
 ```
 cat filename 
 # mit pager
@@ -304,7 +329,7 @@ less filename
 
 ## Suche 
 
-### Suche in Files 
+### Suche in Files mit grep 
 
 ```
 root@jochen-g14d:/etc# cat services | grep http
@@ -322,7 +347,7 @@ root@jochen-g14d:/etc# cat services | grep 'voice box system'
 grep 'voice box system' /etc/services
 ```
 
-### Suche über alle Files (Schweizer Taschenmesser) 
+### Suche über alle Files mit grep -r (Schweizer Taschenmesser) 
 
 ```
 # durchsucht alle order recursive 
@@ -342,6 +367,8 @@ cat services | grep -v '^#'
 ```
 
 ## Entpacken von Files / Ausgaben von gepackten files 
+
+### zcat und gzip -d
 
 ```
 zcat /var/log/syslog.2.gz 
