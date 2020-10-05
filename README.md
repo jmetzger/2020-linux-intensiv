@@ -17,6 +17,24 @@ history
 !244  # Achtung wird direkt ausführt 
 ```
 
+### Ein Programm verlassen 
+
+```
+Variante 1: 
+STRG + c (gleichzeitig drücken) 
+
+oder
+Variante 2:
+q 
+
+oder 
+Variante 3:
+Termin schliessen 
+
+=> eines von beiden geht eigentlich immer 
+```
+
+
 ### PATH / Wo werden Kommandos gesucht ? 
 
 ```
