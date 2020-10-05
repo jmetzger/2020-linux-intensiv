@@ -30,6 +30,19 @@ ls -la  | less
 
 ```
 
+## Hintergrund '.' und '..' 
+
+```
+. = aktuelles Verzeichnis 
+.. = übergeordnetes Verzeichnis 
+
+ls -la training
+total 8
+drwxrwxr-x  2 nobleprog nobleprog 4096 Oct  5 09:22 .
+drwxr-xr-x 24 nobleprog nobleprog 4096 Oct  5 09:22 ..
+```
+
+
 ## Hilfe ## 
 
 ```
