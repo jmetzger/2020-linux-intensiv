@@ -1,8 +1,8 @@
 # Linux Einführung 
 
-  1 Grundlagen
-  1 Bash - Programmierung 
-  
+   1. [Grundlagen](#1-grundlagen)
+   1. [Bash - Programmierung](#2-bash-programmierung) 
+   1. [MySQL - Galera - Cluster](suche.md#)
 
 ## 1 Grundlagen
 
