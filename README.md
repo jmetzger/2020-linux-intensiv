@@ -25,6 +25,9 @@ ls -l
 # Liste mit versteckten Dateien 
 ls -la
 
+# Listing seitenweise anzeigen (Pager) 
+ls -la  | less 
+
 ```
 
 ## Hilfe ## 
