@@ -9,6 +9,22 @@ https://www.computerweekly.com/de/meinung/Das-beste-Server-Betriebssystem-Vergle
 https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 https://tldp.org/LDP/abs/html/
 
+## Bash Script - Example 
+
+```
+# /home/nobleprog/test.sh 
+
+
+#!/bin/bash
+#
+#ls -la
+# Long Option with value 
+ls -la | head --lines=4
+# Short option with value 
+ls -la | tail -n 4
+```
+
+
 ## Bash Specials 
 
 ```
