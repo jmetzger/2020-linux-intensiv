@@ -1,12 +1,12 @@
 # Linux Einführung 
 
-## Grundlagen
+## 1 Grundlagen
 
 ### Wann Linux, wann Windows ? 
 
 https://www.computerweekly.com/de/meinung/Das-beste-Server-Betriebssystem-Vergleich-zwischen-Linux-und-Windows#:~:text=Linux%20kommt%20im%20Data%20Center,viele%20verschiedene%20Einsatzzwecke%20zu%20verwenden.
 
-## Bash - Programmierung
+## 2 Bash - Programmierung
 
 ### Bash Programming - Howto's 
 
@@ -44,9 +44,7 @@ echo $?
 127 
 ```
 
-
-
-## Arbeiten auf der Bash 
+## 3 Arbeiten auf der Bash 
 
 ### Bash Specials 
 
@@ -154,8 +152,7 @@ root@jochen-g14d:/var/log#
 ```
 
 
-## Grundlegende Dateioperationen
-
+## 4 Grundlegende Dateioperationen
 
 ### Verzeichnis wechseln und Liste anzeigen 
 ```
@@ -261,7 +258,7 @@ cp -r verzeichnis verteichnis_neu
 ```
 
 
-## Hilfe
+## 5 Hilfe
 
 ### Man - Seiten 
 
@@ -300,7 +297,7 @@ apropos copy files | grep copy | less
 
 ```
 
-## Benutzer ##
+## 6 Benutzer
 
 ### Wer bin ich (der eingeloggte Nutzer) ? 
 
@@ -316,7 +313,7 @@ whoami
 id
 ```
 
-## Ausgabe von Dateien 
+## 7 Ausgabe von Dateien 
 
 ### Cat und Less (pager) 
 ```
