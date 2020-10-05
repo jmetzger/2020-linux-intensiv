@@ -1,15 +1,19 @@
 # Linux Einführung 
 
-## Wann Linux, wann Windows ? 
+## Grundlagen
+
+### Wann Linux, wann Windows ? 
 
 https://www.computerweekly.com/de/meinung/Das-beste-Server-Betriebssystem-Vergleich-zwischen-Linux-und-Windows#:~:text=Linux%20kommt%20im%20Data%20Center,viele%20verschiedene%20Einsatzzwecke%20zu%20verwenden.
 
-## Bash Programming - Howto's 
+## Bash - Programmierung
+
+### Bash Programming - Howto's 
 
 https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 https://tldp.org/LDP/abs/html/
 
-## Bash Script - Example 
+### Bash Script - Example 
 
 ```
 # /home/nobleprog/test.sh 
@@ -24,8 +28,27 @@ ls -la | head --lines=4
 ls -la | tail -n 4
 ```
 
+### Return Values 
 
-## Bash Specials 
+```
+# Every command has a return value 
+# 0 = success 
+# 0 <> failure 
+example 
+date
+echo $?
+0
+
+keinbefehl
+echo $?
+127 
+```
+
+
+
+## Arbeiten auf der Bash 
+
+### Bash Specials 
 
 ```
 # Zeigt Heimatverzeichnis des aktuell eingeloggten Nutzers an 
@@ -47,7 +70,6 @@ env
 echo $PATH 
 ```
 
-
 ### Ein Programm verlassen 
 
 ```
@@ -64,7 +86,6 @@ Termin schliessen
 
 => eines von beiden geht eigentlich immer 
 ```
-
 
 ### PATH / Wo werden Kommandos gesucht ? 
 
@@ -86,7 +107,7 @@ $LISTE
 $LISTE -la 
 ```
 
-### Variablen auswerten (ja/nein) 
+### Variablen auswerten (einfache und doppelte Hochkommas)
 
 ```
 # Einfache Hochkommas -> kein Auswertung 
@@ -98,23 +119,6 @@ Das ist mein Pfad /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 root@jochen-g14d:/var/log# echo "Das ist mein Pfad $(date)" 
 Das ist mein Pfad Mon 05 Oct 2020 01:20:57 PM UTC
 root@jochen-g14d:/var/log# echo "Das ist mein Pfad $PATH" 
-```
-
-
-### Return Values 
-
-```
-# Every command has a return value 
-# 0 = success 
-# 0 <> failure 
-example 
-date
-echo $?
-0
-
-keinbefehl
-echo $?
-127 
 ```
 
 ### In den root-Benutzer (Administrator) wechseln 
@@ -150,7 +154,10 @@ root@jochen-g14d:/var/log#
 ```
 
 
-## Verzeichnis wechseln und Liste anzeigen 
+## Grundlegende Dateioperationen
+
+
+### Verzeichnis wechseln und Liste anzeigen 
 ```
 # Verzeichnis wechseln 
 cd /
@@ -175,18 +182,7 @@ ls -la  | less
 
 ```
 
-## Verzeichnis/Datei  anlegen, löschen und umbenennen 
-
-```
-
-# mit relativem Pfad / im aktuellen Verzeichnis 
-mkdir training  
-mkdir /home/user/training2 
-
-# Verzeichnisstruktur anlegen (-p)  
-mkdir -p daten/2020/dezember 
-
-```
+### Hintergrund zu . und .. im Verzeichnis 
 
 ```
 ## Hintergrund '.' und '..' 
@@ -200,13 +196,23 @@ drwxrwxr-x  2 nobleprog nobleprog 4096 Oct  5 09:22 .
 drwxr-xr-x 24 nobleprog nobleprog 4096 Oct  5 09:22 ..
 ```
 
+### Verzeichnis/Datei anlegen, löschen und umbenennen 
+
+```
+# mit relativem Pfad / im aktuellen Verzeichnis 
+mkdir training  
+mkdir /home/user/training2 
+
+# Verzeichnisstruktur anlegen (-p)  
+mkdir -p daten/2020/dezember 
+```
 
 ```
 # Leeres Verzeichnis löschen 
 rmdir verzeichnisname 
 ```
 
-## Datei anlegen/löschen  
+## Verzeichnis / Datei anlegen/löschen  
 
 ```
 # Anlegen Datei 
@@ -225,7 +231,6 @@ rm: cannot remove 'vmlinuz.old': Permission denied
 # Löschen von Verzeichnissen
 rm -r verzeichnis 
 rm -R verzeichnis 
-
 ```
 
 ```
@@ -235,13 +240,11 @@ mv verzeichnis neues_verzeichnis
 cp dateiname neuer_dateiname
 
 # Beim Kopieren alle Rechte übernehmen und Verzeichnis kopieren.
-```
 # in den meisten fällen besser als nur:
 # cp verzeichnis -> weil rechte übernommen werden. 
 cp -a verzeichnis verzeichnis_neu
 cp -a datei datei_neu 
 ```
-
 
 # Verzeichnis kopieren
 cp -r verzeichnis verteichnis_neu 
@@ -249,7 +252,7 @@ cp -r verzeichnis verteichnis_neu
 ```
 
 
-## Hilfe ## 
+## Hilfe
 
 ```
 man ls 
