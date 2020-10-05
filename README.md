@@ -201,3 +201,14 @@ whoami
 # Mehr über mich
 id
 ```
+
+## Ausgabe von Dateien 
+
+```
+cat filename 
+# mit pager
+cat filename | less  
+# direkt mit pager 
+less filename 
+```
+
