@@ -39,6 +39,8 @@ mkdir training
 mkdir /home/user/training2 
 
 ## Hintergrund '.' und '..' 
+```
+
 
 ```
 . = aktuelles Verzeichnis 
