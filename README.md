@@ -9,6 +9,7 @@
    1. [Ausgabe von Dateien](ausgabe-von-dateien.md)
    1. [Ausgabe von gepackten Files / Entpacken von Files](ausgabe-gepackte-files.md)
    1. [Suche](suche.md)
+   1. [Übung mit Dateien filtern](uebung-dateien.md)
 
 ## 1 Grundlagen
 
