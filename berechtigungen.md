@@ -99,10 +99,31 @@ sudo chown nobleprog dateiname
 sudo chgrp nobleprog dateiname 
 ```
 
+### umask 
 
+```
+# maximale Rechte beim Erstellen einer Datei 
+# 666 
+-rw-rw-rw-  dateiname 
 
+# Verzeichnis 
+# maximale Rechte für Verzeichnis = 777 
+drwxrwxrwx  verzeichnis 
 
+# Anwendung der Maske für Datei 'newfile'
+# z.B. 
+  0666
+- 0002
+------
+  0664
 
+# Anwedung der Maske für Verzeichnis 'newdir' 
+# z.B. 
+  0777
+- 0002
+------
+  0775 
+```
 
 
 
