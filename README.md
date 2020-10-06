@@ -55,4 +55,34 @@ echo $?
 127 
 ```
 
+### Testing conditions with test ###
+
+```
+nobleprog@jochen-g14d:~$ man test
+nobleprog@jochen-g14d:~$ man test
+# Test for directory
+nobleprog@jochen-g14d:~$ test -d /etc
+nobleprog@jochen-g14d:~$ echo $?
+0
+nobleprog@jochen-g14d:~$ test -d /etc2
+nobleprog@jochen-g14d:~$ echo $?
+1
+# Does Directory not exist -> true = 0 
+nobleprog@jochen-g14d:~$ test ! -d /etc2
+nobleprog@jochen-g14d:~$ echo $?
+0
+nobleprog@jochen-g14d:~$ man test
+nobleprog@jochen-g14d:~$ [ ! -d /etc2 ]
+nobleprog@jochen-g14d:~$ echo $?
+0
+nobleprog@jochen-g14d:~$ man test
+
+# Be careful with spaces after [ and before ] (must have) 
+nobleprog@jochen-g14d:~$ [! -d /etc2]
+[!: command not found
+nobleprog@jochen-g14d:~$ [ ! -d /etc2 
+
+
+```
+
 
