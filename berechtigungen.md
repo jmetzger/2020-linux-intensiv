@@ -90,6 +90,14 @@ d | r w x | r - x | r - x |
 
 ```
 
+### Besitzrechte und Gruppeneigentümer ändern 
+
+```
+# Besitzeigentümer ändern 
+sudo chown nobleprog dateiname 
+# Gruppeneigentümer ändern 
+sudo chgrp nobleprog dateiname 
+```
 
 
 
