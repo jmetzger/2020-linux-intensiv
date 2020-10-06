@@ -106,3 +106,20 @@ heute ist ein schöner tag
 Mon 05 Oct 2020 01:16:15 PM UTC eine wunderbare Zeit
 root@jochen-g14d:/var/log# 
 ```
+
+### Gehört kommando zur shell oder ist es eigenständig (oder alias) 
+
+```
+nobleprog@jochen-g14d:~$ type umask
+umask is a shell builtin
+nobleprog@jochen-g14d:~$ type ls
+ls is aliased to `ls --color=auto'
+nobleprog@jochen-g14d:~$ type cd
+cd is a shell builtin
+nobleprog@jochen-g14d:~$ type grep
+grep is aliased to `grep --color=auto'
+nobleprog@jochen-g14d:~$ type less
+less is /usr/bin/less
+nobleprog@jochen-g14d:~$ 
+```
+
