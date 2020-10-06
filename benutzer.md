@@ -14,6 +14,13 @@ whoami
 id
 ```
 
+### Alle Gruppen eines Benutzer anzeigen (in denen er Mitglied ist) 
+
+```
+groups 
+```
+
+
 ### Benutzer ausgeben / anlegen 
 
 ```
