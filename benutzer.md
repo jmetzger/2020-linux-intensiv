@@ -53,3 +53,10 @@ usermod -s /bin/false training
 # Mit Ausgabe und Ausloggen nach Einloggen
 usermod -s /usr/sbin/nologin training 
 ```
+
+### Benutzer löschen 
+
+```
+# Löschen als unprivilegierter Nutzer mit sudo-Rechten 
+sudo userdel training 
+```
