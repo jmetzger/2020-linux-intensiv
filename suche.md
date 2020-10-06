@@ -37,3 +37,16 @@ grep -ir VOICE /etc | grep services
 cat services | grep -v '^#' 
 ```
 
+### Locate - Suche 
+
+```
+# sucht in der datenbank, die täglich erstellt wird 
+locate training.sh
+# auch wenn die datei gelöscht wurde am gleichen tag,
+# wird diese angezeigt, weil sie nachts indiziert wurde
+# nachts läuft
+updatedb 
+
+# überprüfen, ob diese noch existiert vor der Ausgabe 
+locate -e training.sh 
+```
