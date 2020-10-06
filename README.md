@@ -86,4 +86,16 @@ nobleprog@jochen-g14d:~$ [ ! -d /etc2
 
 ```
 
+### If - Schleife 
+
+```
+if /bin/true
+  then
+     echo 'then'
+     exit 0
+  else 
+     echo 'else'
+     exit 1
+fi
+```
 
