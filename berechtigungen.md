@@ -125,7 +125,17 @@ drwxrwxrwx  verzeichnis
   0775 
 ```
 
+### umask während session setzen 
 
+```
+#  Beispiel 
+umask 0000
+umask 0002 
+.. usws
+# ausgaben
+umask 
+
+```
 
 
 
