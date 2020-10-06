@@ -13,3 +13,21 @@ whoami
 # Mehr über mich
 id
 ```
+
+### Benutzer ausgeben / anlegen 
+
+```
+# Location of users in system 
+cat /etc/passwd 
+
+man useradd
+man adduser
+# On Debian/Ubuntu 
+# use adduser to interactively add a new user 
+adduser training
+# use useradd for scripts
+# Important: Use options
+useradd training 
+
+
+```
