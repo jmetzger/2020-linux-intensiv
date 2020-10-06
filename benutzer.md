@@ -38,3 +38,18 @@ useradd training
 
 
 ```
+
+### Unter einem anderen Benutzer anmelden (während einer Session)
+
+```
+su --login training
+```
+
+### Shell eines Benutzer ändern ###
+
+```
+# Direktes Ausloggen nach Login 
+usermod -s /bin/false training
+# Mit Ausgabe und Ausloggen nach Einloggen
+usermod -s /usr/sbin/nologin training 
+```
