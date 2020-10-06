@@ -67,3 +67,37 @@ chmod o+w datei
 
 ```
 
+### chmod - Oktalzahlen 
+
+```
+
+# Zahlen von 0-7 
+
+- | - - - | - - - | - - - | = 0 0 0
+
+# Alle Rechte für Datei 
+
+    4 2 1   4 2 1   4 2 1 
+- | r w x | r w x | r w x |  = 7 7 7
+
+# 660
+
+- | r w - | r w - | - - - 
+
+# 755 - Verzeichnis 
+      7       5       5
+d | r w x | r - x | r - x |
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
