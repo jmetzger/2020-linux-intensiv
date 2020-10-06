@@ -123,3 +123,18 @@ less is /usr/bin/less
 nobleprog@jochen-g14d:~$ 
 ```
 
+### Shell Expansion mit '*' 
+
+```
+echo new*
+newdir newdir2 newfile newfile2
+nobleprog@jochen-g14d:~$ ls -la newdir newdir2 newfile newfile2 
+-rw-rw-r-- 1 nobleprog nobleprog    0 Oct  6 11:11 newfile
+---------- 1 nobleprog nobleprog    0 Oct  6 11:17 newfile2
+
+newdir:
+total 8
+drwxrwxr-x  2 nobleprog nobleprog 4096 Oct  6 11:13 .
+drwxr-xr-x 27 nobleprog nobleprog 4096 Oct  6 11:17 ..
+ls: cannot open directory 'newdir2': Permission denied
+```
