@@ -73,3 +73,15 @@ sleep 1000
 STRG + c # beendet das programm 
 ```
 
+### ps - optionen herleiten 
+
+```
+2 Varianten:
+ps aux 
+ps -ef 
+```
+
+```
+# Beispiele man-pages relativ weit 
+ps aux 
+```
