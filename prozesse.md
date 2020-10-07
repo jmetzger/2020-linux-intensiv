@@ -1,4 +1,4 @@
-## 12 Prozesse 
+## 12 Prozesse (inkl. Kill) 
 
 ### pstree / Baum der Prozess anzeigen 
 
@@ -89,3 +89,13 @@ man ps
 ```
 ps --help simple 
 ```
+
+### kill - Signale anzeigen 
+
+kill sendet ein Signal an einen Prozess
+
+```
+# Alle möglichen Signale anzeigen 
+kill -L
+```
+
