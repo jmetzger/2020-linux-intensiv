@@ -46,6 +46,6 @@ training@rechner2$ cd /tmp; sudo dpkg -i paket.deb
 ### Debian/Update updaten / neuester Stand 
 
 ```
-apt update
-apt dist-update 
+apt upgrade
+apt dist-upgrade  
 ```
