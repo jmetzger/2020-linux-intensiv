@@ -122,3 +122,19 @@ kill -19 1234 # SIGSTOP
 SIGHUP 
 kill -1 1234 # Reload Configuration File 
 ```
+
+### Prozess im 2. Terminal beenden 
+
+```
+# Terminal 1 
+# starter.sh starten 
+
+# Terminal 2
+ps aux | grep starter.sh 
+# Prozess mit PID (Prozess Id) killen -> z.b 1234
+kill 1234 
+
+# Terminal 2
+# Reagiert der Prozess nicht, dann -9 (SIGKILL) nachschieben
+kill -9 1234 
+
