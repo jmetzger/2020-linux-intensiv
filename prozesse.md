@@ -50,6 +50,13 @@ ps aux | grep bash | wc -l
 ps aux | grep -c bash
 ```
 
+### Beispiel: Prozess-Id (pid) finden 
+
+```
+# starter.sh ist das script was wir suchen 
+ps aux | grep starter.sh # Info in Spalte 2 (Spalte 1 = user) 
+```
+
 ### Beenden Programme im Vordergrund 
 
 ```
