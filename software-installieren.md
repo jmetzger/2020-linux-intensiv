@@ -33,3 +33,12 @@ ls -la percona-release_latest.focal_all.deb
 
 dpkg -i percona-release_latest.focal_all.deb
 ```
+
+```
+# rechner1 -> rechner2
+# ins /tmp schreiben geht immer 
+training@rechner1$ scp paket.deb user@rechner2:/tmp 
+
+# auf rechner2 
+training@rechner2$ cd /tmp; sudo dpkg -i paket.deb 
+```
