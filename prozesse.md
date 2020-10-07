@@ -55,6 +55,9 @@ ps aux | grep -c bash
 ```
 # starter.sh ist das script was wir suchen 
 ps aux | grep starter.sh # Info in Spalte 2 (Spalte 1 = user) 
+
+# mit header
+ps aux | head --lines=1; ps aux | grep starter.sh
 ```
 
 ### Beenden Programme im Vordergrund 
