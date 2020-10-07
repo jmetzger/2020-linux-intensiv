@@ -40,3 +40,13 @@ STRG + v Blockweise markieren
 # Dann:
 x # Löschen des markierten Bereichs 
 ```
+
+### Zeilen löschen im Normalmodus (Interactiver Modus) 
+
+```
+ESC + dd # eine Zeile löschen 
+# letzte Aktion rückgängig machen 
+ESC + u # eigentlich reicht 1x Escape 
+# mehrere Zeilen löschen z.B. 1000
+ESC + 1000dd # ESC - Taste drücken, dann 1000 eingeben, dann dd (sie sehen die 1000 nicht auf dem Bildschirm) 
+```
