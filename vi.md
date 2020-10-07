@@ -29,3 +29,14 @@ vimtutor # sollte bereits mit vi installiert worden sein.
   ESC + :x # ESC Taste drücken, dann : und w und enter 
 ```  
 
+### Virtual Mode 
+
+```
+v Zeichenweise markieren einschalten
+V Zeilenweise markieren einschalten
+STRG + v Blockweise markieren 
+
+# mit Cursortasten auswählen / markieren 
+# Dann:
+x # Löschen des markierten Bereichs 
+```
