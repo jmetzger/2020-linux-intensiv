@@ -21,3 +21,8 @@ systemctl enable apache2
 systemctl list-units -t service 
 ```
 
+### Log-Datei von systemd => journalctl 
+
+```
+# Alle Ereignisse zu apache2 
+journalctl -u apache2 
