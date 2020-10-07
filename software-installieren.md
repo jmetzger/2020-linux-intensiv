@@ -8,7 +8,13 @@ apt search apache2
 # seitenweise ausgabe
 apt search apache2 | less 
 # installieren 
+apt update 
 apt install apache2 
+```
+
+```
+# Repoositories, d.h. wo liegt die Software
+# wird unter /etc/apt/source.list gepflegt
 ```
 
 ```
