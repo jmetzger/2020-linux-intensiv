@@ -137,6 +137,7 @@ kill 1234
 # Terminal 2
 # Reagiert der Prozess nicht, dann -9 (SIGKILL) nachschieben
 kill -9 1234 
+```
 
 ### Prozesse im Hintergrund starten / Jobs
 
@@ -166,7 +167,15 @@ starter.sh # jetzt läuft er wieder im Vordergrund
 ### Script im Hintergrund laufen lassen (auch nach Terminal schliessen) 
 
 ```
+# Terminal 1 
+nohup starter.sh & 
+ls -la nohup.out 
+# Terminal 1 schliessen
 
+# Terminal 2 
+# Script läuft nach schliessen von Terminal 1 noch 
+ps aux | grep starter.sh # Spalte 2: pid: z.b. 1234  
+kill 1234 
 
 ```
 
