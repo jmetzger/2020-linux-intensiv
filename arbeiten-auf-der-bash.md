@@ -2,6 +2,17 @@
 
 ## 3 Arbeiten auf der Bash 
 
+### Bash Builtins 
+
+```
+# Das sind Programme die in die Bash eingebaut und nicht extern sind 
+# Mit type herausfinden, ob ein Befehl intern ist 
+nobleprog@jochen-g14d:~/bin$ type jobs
+jobs is a shell builtin
+nobleprog@jochen-g14d:~/bin$ help jobs
+
+```
+
 ### Bash Specials 
 
 ```
