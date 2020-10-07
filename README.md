@@ -99,3 +99,35 @@ if /bin/true
 fi
 ```
 
+### Beispiel-Script 
+
+```
+#!/bin/bash 
+
+#echo 'scriptname:'$0
+#echo 'param1:'$1
+#echo 'alle params:'$@
+#echo 'anzahl:'$#
+source $HOME/config.sh
+# . $HOME/config.sh
+
+if test ! -d $DATEN 
+then
+  echo "Verzeichnis $DATEN existiert nicht. Es wird angelegt" >> $LOGTO
+  mkdir $DATEN
+else
+  echo "Verzeichnis $DATEN existiert. Alles gut" >> $LOGTO
+fi 
+
+let i=0
+
+while test $i -lt 1000000000000000
+do
+  let i=i+1
+  DATUM=$(date)
+  echo $DATUM" Zahl:"$i >>  $LOGTO
+  echo $DATUM" Schlafe fuer 5 Sekunden" >> $LOGTO 
+  sleep 5
+done
+
+```
