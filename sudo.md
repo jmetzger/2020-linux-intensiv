@@ -25,3 +25,19 @@ root@jochen-g14d:/etc/sudoers.d# cat nobleprog
 nobleprog ALL=(ALL:ALL) NOPASSWD:ALL
 ```
 
+### Sudo - User anlegen (root) 
+
+```
+apropos user # find command adduser 
+sudo adduser training 
+# is group sudo present on system 
+cat /etc/group | grep sudo
+man usermod # Supplementary Groups
+
+# Add user training to supplementary group
+usermod -aG sudo training 
+
+# Testing 
+su - training # change to user 
+sudo su - # find out if user training can execute sudo commands 
+```
