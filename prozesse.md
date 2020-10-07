@@ -49,3 +49,11 @@ ps aux | grep bash
 ps aux | grep bash | wc -l
 ps aux | grep -c bash
 ```
+
+### Beenden Programme im Vordergrund 
+
+```
+sleep 1000
+STRG + c # beendet das programm 
+```
+
