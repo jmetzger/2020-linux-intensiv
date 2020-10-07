@@ -1,4 +1,4 @@
-## Software Installieren 
+## 15 Software Installieren 
 
 ### Debian / Ubuntu 
 
@@ -9,5 +9,10 @@ apt search apache2
 apt search apache2 | less 
 # installieren 
 apt install apache2 
+```
+
+```
+apt install 
+... installiert die Pakete (.deb - Dateien) und löst Abhängigkeiten automatisch auf
 ```
 
