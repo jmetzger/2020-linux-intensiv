@@ -90,7 +90,7 @@ man ps
 ps --help simple 
 ```
 
-### kill - Signale anzeigen 
+### kill - Signale schicken an Prozesse
 
 kill sendet ein Signal an einen Prozess
 
@@ -99,3 +99,14 @@ kill sendet ein Signal an einen Prozess
 kill -L
 ```
 
+```
+kill -15 1123 # 1123 ist die Prozess ID 
+das gleich wie:
+kill 1123 # da 15 das Default Signal 
+```
+
+```
+# Pistolennummer
+# Wir haben uns Kind 2x vorgewarnt 
+kill -9 1123 
+```
