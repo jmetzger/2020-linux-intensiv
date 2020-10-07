@@ -83,5 +83,9 @@ ps -ef
 
 ```
 # Beispiele man-pages relativ weit 
-ps aux 
+man ps 
+```
+
+```
+ps --help simple 
 ```
