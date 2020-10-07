@@ -60,6 +60,12 @@ ps aux | grep starter.sh # Info in Spalte 2 (Spalte 1 = user)
 ps aux | head --lines=1; ps aux | grep starter.sh
 ```
 
+### Beispiel: Prozess für Kommando in Files ausgeben
+
+```
+ps aux > /home/user/ausgabe.ps 
+```
+
 ### Beenden Programme im Vordergrund 
 
 ```
