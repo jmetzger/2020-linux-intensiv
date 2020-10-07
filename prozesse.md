@@ -33,3 +33,19 @@ Swap - Daten die auf Festplatte ausgelagert werden, weil zu wenig Arbeitsspeiche
 
 ```
 
+### ps - prozesse anzeigen als Liste 
+
+```
+Fall 1: Alle Prozesse anzeigen 
+
+# macht in der Regel als root 
+sudo ps aux | less
+sudo ps aux 
+
+# Information über bestimmtes kommando (Alle Prozesse)  
+ps aux | grep bash
+
+# Wieviel Prozesse 
+ps aux | grep bash | wc -l
+ps aux | grep -c bash
+```
