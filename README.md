@@ -11,6 +11,7 @@
    1. [Suche](suche.md)
    1. [Übung mit Dateien filtern](uebung-dateien.md)
    1. [Hilfreiche Programme](hilfreiche-programme.md) 
+   1. [Prozesse](prozesse.md)
 
 ## 1 Grundlagen
 
