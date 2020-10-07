@@ -22,3 +22,14 @@ apt install
 ... installiert die Pakete (.deb - Dateien) und löst Abhängigkeiten automatisch auf
 ```
 
+### Debian/Ubuntu install with dpkg 
+
+```
+# Download Package 
+wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
+
+ls -la percona-release_latest.focal_all.deb 
+-rw-rw-r-- 1 nobleprog nobleprog 11618 Sep  2 14:24 percona-release_latest.focal_all.deb
+
+dpkg -i percona-release_latest.focal_all.deb
+```
