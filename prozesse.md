@@ -138,3 +138,30 @@ kill 1234
 # Reagiert der Prozess nicht, dann -9 (SIGKILL) nachschieben
 kill -9 1234 
 
+### Prozesse im Hintergrund starten / Jobs
+
+```
+# Prozess läuft komplett im Hintergrund wenn keine Ausgaben
+# Ich kann weiter arbeiten im Terminal 
+starter.sh & 
+[1] 123607 # 1 = jobnr (nur in dieser session) // 123607 in allen Sessions verfügbar 
+
+```
+
+```
+# Zeige alle jobs an
+nobleprog@jochen-g14d:~/bin$ jobs 
+[1]+  Running                 starter.sh &
+# Schicke STOP signal = siehe kill -L
+nobleprog@jochen-g14d:~/bin$ kill -19 %1
+# War letzter Befehl erfolgreich 
+nobleprog@jochen-g14d:~/bin$ echo $?
+0
+
+[1]+  Stopped                 starter.sh
+nobleprog@jochen-g14d:~/bin$ fg starter.sh
+starter.sh # jetzt läuft er wieder im Vordergrund 
+```
+
+
+
