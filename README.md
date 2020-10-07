@@ -13,6 +13,7 @@
    1. [Hilfreiche Programme](hilfreiche-programme.md) 
    1. [Prozesse](prozesse.md)
    1. [Sudo](sudo.md)
+   1. [Vi](vi.md)
 
 ## 1 Grundlagen
 
