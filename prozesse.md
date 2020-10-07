@@ -100,6 +100,7 @@ kill -L
 ```
 
 ```
+# das gleich wie STRG + c 
 kill -15 1123 # 1123 ist die Prozess ID 
 das gleich wie:
 kill 1123 # da 15 das Default Signal 
@@ -109,4 +110,15 @@ kill 1123 # da 15 das Default Signal
 # Pistolennummer
 # Wir haben uns Kind 2x vorgewarnt 
 kill -9 1123 
+```
+
+### Besondere Signale 
+
+```
+SIGSTOP - STRG + z (Prozess stoppen und im Arbeitsspeicher behalten) 
+kill -19 1234 # SIGSTOP 
+
+#
+SIGHUP 
+kill -1 1234 # Reload Configuration File 
 ```
