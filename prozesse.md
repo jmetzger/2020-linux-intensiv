@@ -163,5 +163,14 @@ nobleprog@jochen-g14d:~/bin$ fg starter.sh
 starter.sh # jetzt läuft er wieder im Vordergrund 
 ```
 
+### Script im Hintergrund laufen lassen (auch nach Terminal schliessen) 
+
+```
+
+
+```
+
+
+
 
 
