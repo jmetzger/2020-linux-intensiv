@@ -13,6 +13,15 @@ nobleprog@jochen-g14d:~/bin$ help jobs
 
 ```
 
+#### List alle bash-builtin Kommandos 
+
+```
+# Liste aller ... s.o. Überschrift 
+man bash-builtins 
+
+```
+
+
 ### Bash Specials 
 
 ```
