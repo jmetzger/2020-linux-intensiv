@@ -42,3 +42,10 @@ training@rechner1$ scp paket.deb user@rechner2:/tmp
 # auf rechner2 
 training@rechner2$ cd /tmp; sudo dpkg -i paket.deb 
 ```
+
+### Debian/Update updaten / neuester Stand 
+
+```
+apt update
+apt dist-update 
+```
