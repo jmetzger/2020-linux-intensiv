@@ -1,6 +1,7 @@
 # Linux Einführung 
 
    1. [Grundlagen](#1-grundlagen)
+   1. [Bash - Grundlegende Befehle](grundlegende-befehle.md)
    1. [Bash - Programmierung](#2-bash---programmierung) 
    1. [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
