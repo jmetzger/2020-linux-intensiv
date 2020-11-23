@@ -41,3 +41,9 @@ yum update
 ## reinstall configuration files 
 
   * https://linuxfreelancer.com/restore-original-files-from-rpm-package
+  
+```
+# uninstall 
+
+# reinstall with force 
+rpm -ivh --force packagename.rpm
