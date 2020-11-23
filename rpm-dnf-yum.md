@@ -47,3 +47,5 @@ yum update
 
 # reinstall with force 
 rpm -ivh --force packagename.rpm
+```
+rpm -ivh --force packagename.rpm
