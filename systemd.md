@@ -24,6 +24,9 @@ systemctl set-default multi-user
 systemctl cat multi-user.target 
 systemctl cat sshd.service # centos 
 
+# show running and next scheduled timers 
+systemctl list-timers 
+
 ```
 
 ## tmpfiles.d 
@@ -54,3 +57,27 @@ systemd-tmpfiles-setup-dev.service         static          enabled
 systemd-tmpfiles-setup.service             static          enabled
 systemd-tmpfiles-clean.timer               static          enabled
 ```
+
+## timers ## 
+
+```
+systemctl list-timers 
+```
+
+## journalctl ##
+
+```
+# show events of a specific unit 
+journalctl -u sshd.service 
+```
+
+## Example debugging of timer event 
+
+```
+systemctl list-timers  | head -n 3
+NEXT                         LEFT       LAST                         PASSED       UNIT                         ACTIVATES
+Mon 2020-11-23 13:11:17 CET  44min left Mon 2020-11-23 12:11:16 CET  15min ago    dnf-makecache.timer          dnf-makecache.service
+Tue 2020-11-24 00:00:00 CET  11h left   Mon 2020-11-23 09:28:30 CET  2h 57min ago unbound-anchor.timer         unbound-anchor.service
+[root@trn01 tmp]# journalctl -u dnf-makecache.service 
+```
+
