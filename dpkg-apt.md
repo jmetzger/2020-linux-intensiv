@@ -21,3 +21,7 @@ apt upgrade
 apt dist-upgrade
 ```
 
+## autoremove ## 
+```
+apt autoremove 
+```
