@@ -30,3 +30,10 @@ dnf remove vim
 # which package provides mysql client 
 dnf provides mysql 
 ```
+
+## update of system 
+
+```
+# also reads new versions from repo 
+yum update 
+```
