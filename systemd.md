@@ -1,5 +1,7 @@
 # Systemd 
 
+## systemctl 
+
 ```
 systemctl status sshd 
 # Rausfinden welche aktivierten / laufenden Dienste 
@@ -23,3 +25,8 @@ systemctl cat multi-user.target
 systemctl cat sshd.service # centos 
 
 ```
+
+## tmpfiles.d 
+
+  * Create manage temporary files 
+  
