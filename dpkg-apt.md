@@ -25,3 +25,9 @@ apt dist-upgrade
 ```
 apt autoremove 
 ```
+
+## reinstall config - files 
+
+```
+apt-cache pkgnames pulse |xargs -n 1 apt-get -o Dpkg::Options::="--force-confmiss" install --reinstall
+```
