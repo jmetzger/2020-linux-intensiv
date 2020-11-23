@@ -10,5 +10,8 @@ lsusb
 lsblk 
 lslbk --fs # zeigt uuid und filesystem - typ 
 
+# partition mounten  
+ mount /dev/sdb1 platte
+
 ```
 
