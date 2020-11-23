@@ -11,7 +11,7 @@ systemctl list-unit-files -t service
 systemctl list-unit-files -t target  
 
 # is target aufrufbar ? 
-systemctl cat mutli-user.target | grep AllowIsolate  # should be in last line 
+systemctl cat multi-user.target | grep AllowIsolate  # should be in last line 
 
 # default target anzeigen 
 # in welches target wird gebootet 
