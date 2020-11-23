@@ -37,3 +37,7 @@ dnf provides mysql
 # also reads new versions from repo 
 yum update 
 ```
+
+## reinstall configuration files 
+
+  * https://linuxfreelancer.com/restore-original-files-from-rpm-package
