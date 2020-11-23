@@ -4,6 +4,7 @@
    1. [Systemd](systemd.md)
    1. [Bash - Grundlegende Befehle der Systemadministration](grundlegende-befehle.md)
    1. [Kernel Parameter](kernel-params.md)
+   1. [Find](find.md)
    1. [Bash - Programmierung](#2-bash---programmierung) 
    1. [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
