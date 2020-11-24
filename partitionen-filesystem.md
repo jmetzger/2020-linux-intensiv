@@ -24,4 +24,7 @@ print
 unit MiB # change unit 
 print 
 
+# create partition table 
+mklabel gpt 
+
 ```
