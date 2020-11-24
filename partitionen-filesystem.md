@@ -64,3 +64,63 @@ mount /mnt/platte
 mount -av 
 ```
 
+## Resize (bigger) ext 4 
+
+```
+# enhance partition
+parted /dev/sdb1 
+# resizepart 
+# number+ new size 
+# quit 
+udevadm settle
+resize2fs /dev/sdb1 
+
+```
+
+## Shrink (smaller) ext4 
+```
+# shrink partion 
+# size should smaller
+resize2fs /dev/sdb1 4G 
+# shrink partition to new size 
+parted
+# resizepart 
+# 1
+# new reduced size 
+# quit 
+# eventually adjust to real size 
+#of partition
+resize2fs /dev/sdb1 
+```
+
+## Create partion with xfs 
+```
+parted /dev/sdb
+# create partition 
+mkpart 
+# 2
+# name - e.g. test
+# filesystem: xfs 
+# start: 
+# end: 
+# quit 
+udevadm settle
+# on ubuntu install xfs 
+apt install xfsprogs 
+mkfs.xfs /dev/sdb2
+# mount 
+mkdir /mnt/platte3
+mount /dev/sdb2 /mnt /mnt/platte 
+```
+
+## Resize (increase) xfs 
+```
+parted /dev/sdb
+# increase partition
+# resizepart 
+# number: 2
+# size: 6GB 
+# quit 
+udevadm settle 
+xfs_growfs /dev/sdb2 
+```
