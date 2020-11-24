@@ -136,3 +136,20 @@ xfs_growfs /dev/sdb2
  xfsrestore -f /mnt/platte/_mnt_platte3_2.xfsdump /mnt/platte3
 
 ```
+
+## Shrink xfs 
+
+```
+# Step 1: dump partition 
+xfsdump -f /mnt/platte/_mnt_platte3_2.xfsdump /mnt/platte3
+# Step 2: partition mit parted verkleinert 
+#parted /dev/sdb  
+#resizepart 
+#1
+#4GB
+# quit
+udevadm settle
+mkfs.xfs -f /dev/sdb2
+xfsrestore -f /mnt/platte/_mnt_platte3_2.xfsdump /mnt/platte3
+```
+
