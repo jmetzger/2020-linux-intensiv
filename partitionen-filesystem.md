@@ -27,4 +27,30 @@ print
 # create partition table 
 mklabel gpt 
 
+mkpart 
+# create partition:
+# name: data 
+# type: ext4 
+# start: 2048s 
+# end: 5GB 
+
+quit
+```
+
+## Mount partition 
+
+```
+mkdir /mnt/platte
+mount /dev/sdb1 /mnt/platte 
+
+# problem device busy 
+cd /mnt/platte
+umount /dev/sdb1 
+# --> not working device busy
+# -- because you or another user is in partition 
+lsof /mnt/platte 
+# eventually kill other process
+```
+
+
 ```
