@@ -18,4 +18,10 @@ parted
 help
 # show specific help of command
 help mkpart 
+
+select /dev/sdb 
+print 
+unit MiB # change unit 
+print 
+
 ```
