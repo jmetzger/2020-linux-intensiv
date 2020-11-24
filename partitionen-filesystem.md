@@ -52,5 +52,15 @@ lsof /mnt/platte
 # eventually kill other process
 ```
 
-
+## Mount persistently 
 ```
+# for testing: be sure, partition not is not mounted 
+mount /mnt/platte 
+# adjusted /etc/fstab // add entry ad end of line  
+ tail /etc/fstab
+/dev/sdb1                 /mnt/platte             ext4    defaults        0 0
+# testing -v - verbose -a  ist für everything from /etc/fstab
+# be careful, if we have an error here, system will not reboot! 
+mount -av 
+```
+
