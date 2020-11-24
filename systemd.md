@@ -29,6 +29,14 @@ systemctl list-timers
 
 ```
 
+## System runterfahren 
+
+```
+# system runterfahren und ausschalten 
+systemctl poweroff 
+poweroff 
+```
+
 ## tmpfiles.d 
 
   * Create manage temporary files 
