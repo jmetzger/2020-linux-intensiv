@@ -23,6 +23,7 @@
    1. [Vi](vi.md)
    1. [Software installieren](software-installieren.md)
    1. [Dienste](dienste.md) 
+   1. [Questions](questions.md)
 
 ## 1 Grundlagen
 
