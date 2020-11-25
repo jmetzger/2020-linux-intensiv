@@ -52,3 +52,10 @@ usermod -aG sudo dein_benutzer
 # auf Centos 
 usermod -aG wheel dein_benutzer 
 ```
+
+### Be careful to not have enabled rootpw = true  
+
+```
+# the you must enter your root password instead of the user password 
+
+```
