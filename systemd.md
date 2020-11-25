@@ -8,6 +8,26 @@
 /run/systemd/system 
 ```
 
+## how it is started
+
+```
+units:
+
+Innerhalb eines Targets , ausführen von
+
+- service(s)
+- mount(s)
+- socket(s) 
+- timer (s)
+
+Oder/und
+     (sub)target(s) 
+        service
+        mount
+        timer
+        socket
+```
+
 ## systemctl 
 
 ```
