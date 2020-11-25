@@ -59,3 +59,18 @@ usermod -aG wheel dein_benutzer
 # the you must enter your root password instead of the user password 
 
 ```
+
+### Eingeschränkte sudo - rechte für benutzer vergeben 
+
+```
+adduser wartung 
+cd /etc/sudoers.d 
+echo "wartung ALL=(ALL) /bin/systemctl restart httpd" > wartung 
+chmod 0440 wartung 
+
+
+## zum testen
+# from root user
+su - wartung 
+sudo systemctl restart httpd 
+```
