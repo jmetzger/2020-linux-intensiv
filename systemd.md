@@ -1,5 +1,13 @@
 # Systemd 
 
+## layers of systemd 
+
+```
+/lib/systemd/system  # never touch this is admin 
+/etc/systemd/system
+/run/systemd/system 
+```
+
 ## systemctl 
 
 ```
