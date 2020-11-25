@@ -41,3 +41,14 @@ usermod -aG sudo training
 su - training # change to user 
 sudo su - # find out if user training can execute sudo commands 
 ```
+
+### Einen Nutzer zum sudo nutzer machen 
+
+```
+# auf Debian / Ubuntu 
+# ist sudo also sudo - Gruppe definiert, die alles darf, was root darf
+usermod -aG sudo dein_benutzer 
+
+# auf Centos 
+usermod -aG wheel dein_benutzer 
+```
