@@ -29,6 +29,31 @@ systemctl list-timers
 
 ```
 
+## Dienste starten/aktivieren/deaktivieren/überprüfen 
+
+```
+systemctl start httpd 
+systemctl start apache2 
+
+systemctl status apache2 
+systemctl status httpd 
+
+systemctl enable apache2
+systemctl enable httpd
+
+systemctl disable apache2
+systemctl disable httpd
+
+systemctl is-enabled apache2
+systemctl is-enabled httpd 
+# wichtig wenn enabled rückgabe wert 0
+echo $? 
+0
+# wenn nicht aktiviert 
+echo $? 
+1 
+```
+
 ## System runterfahren 
 
 ```
