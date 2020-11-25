@@ -7,6 +7,7 @@
    1. [Find](find.md)
    1. [Grundlegende Ordnerstruktur](grundlegende-ordnerstruktur-fhs.md)
    1. [apt/dpkg](dpkg-apt.md)
+   1. [xfsdump und -restore](xfsdump-restore.md) 
    1. [Bash - Programmierung](#2-bash---programmierung) 
    1. [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
