@@ -7,5 +7,6 @@
 ## How to update only kernel on centos 8 
 
   * dnf upgrade kernel 
+  * be sure to reboot, that new kernel is loaded 
   
   
