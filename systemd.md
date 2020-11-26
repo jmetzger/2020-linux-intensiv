@@ -69,6 +69,10 @@ systemctl status httpd
 systemctl enable apache2
 systemctl enable httpd
 
+# enable and start 
+systemctl enable --now apache2
+systemctl enable --now httpd 
+
 systemctl disable apache2
 systemctl disable httpd
 
