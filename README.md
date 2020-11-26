@@ -4,6 +4,7 @@
    1. [Systemd](systemd.md)
    1. [Bash - Grundlegende Befehle der Systemadministration](grundlegende-befehle.md)
    1. [Kernel Parameter](kernel-params.md)
+   1. [Kernel kompilieren](kernel-kompilieren.md)
    1. [Find](find.md)
    1. [Grundlegende Ordnerstruktur](grundlegende-ordnerstruktur-fhs.md)
    1. [apt/dpkg](dpkg-apt.md)
