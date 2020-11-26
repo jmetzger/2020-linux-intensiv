@@ -21,7 +21,14 @@
   * modules is loaded and functions are redirected with ftrace 
   * https://ruffell.nz/programming/writeups/2020/04/20/everything-you-wanted-to-know-about-kernel-livepatch-in-ubuntu.html
 
+## Is docker based on lxc ? 
 
-
+  * Yes ! 
+  * ... since it is based on LXC
+  * https://www.upguard.com/blog/docker-vs-lxc#:~:text=Docker%20is%20developed%20in%20the,provided%20by%20the%20underlying%20infrastructure.
+ 
+```
+Docker is developed in the Go language and utilizes LXC, cgroups, and the Linux kernel itself. Since it's based on LXC, a Docker container does not include a separate operating system; instead it relies on the operating system's own functionality as provided by the underlying infrastructure.22.10.2020
+```
   
   
