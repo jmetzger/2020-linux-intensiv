@@ -17,6 +17,7 @@
    1. [Strings escapen](strings-escapen.md)
    1. [Vi/vim](vi.md)
    1. [dnf](dnf.md) 
+   1. [debugging log-files ](debugging-logs.md) 
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
    1. [Bash - Programmierung](#2-bash---programmierung) 
    1. [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
