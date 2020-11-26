@@ -3,6 +3,7 @@
 ```
 dnf search 
 dnf install 
+# remove package 
 dnf remove 
 dnf provides
 
