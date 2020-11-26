@@ -21,3 +21,10 @@ mkdir /var/log/journal
 systemctl restart systemd-journal-flush.service 
 
 ```
+
+## Restrict how much is logged / data 
+
+```
+# in /etc/systemd/journald.conf 
+SystemMaxUse=1G 
+```
