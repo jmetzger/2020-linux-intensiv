@@ -11,6 +11,7 @@
    1. [xfsdump und -restore](xfsdump-und-restore.md) 
    1. [sudo](sudo.md)
    1. [ssh](ssh.md) 
+   1. [scp](scp.md)
    1. [ssh Kommandos auf Zielsystem ausführen](ssh-commands.md) 
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
    1. [Bash - Programmierung](#2-bash---programmierung) 
