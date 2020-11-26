@@ -31,3 +31,10 @@ apt autoremove
 ```
 apt-cache pkgnames pulse |xargs -n 1 apt-get -o Dpkg::Options::="--force-confmiss" install --reinstall
 ```
+
+## deinstallation 
+
+```
+apt remove package  # leave config-files 
+apt purge package # also delete config files
+```
