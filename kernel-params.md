@@ -11,5 +11,9 @@ root@ubuntu01:/proc/sys/net/ipv4# cat ip_forward
 root@ubuntu01:/proc/sys/net/ipv4# echo 1 > ip_forward
 root@ubuntu01:/proc/sys/net/ipv4#
 
-
 ```
+
+# At boot time 
+
+  * Centos/Redhat: man kernel-command-line
+  * Ubuntu/Debian: man kernel-command-line 
