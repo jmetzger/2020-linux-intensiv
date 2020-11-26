@@ -23,3 +23,13 @@ ssh -R 80:localhost:80 user@remoteserver
 ## letzten Befehl als sudo ausführen (aus history) 
 
   * sudo !! 
+  
+## Verzeichnisstruktur als Baum anzeigen 
+
+```
+# unter Ubuntu installieren 
+apt install tree
+
+tree /home/centos01 
+
+```
