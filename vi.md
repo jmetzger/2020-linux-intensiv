@@ -1,4 +1,17 @@
-## 14 vi 
+# vi/vim
+
+## Zeilennummern aktivieren für alle
+
+```
+# Centos 
+#/etc/vimrc 
+# am ende
+set number
+
+# Ubuntu 
+# /etc/vim/vimrc.local 
+set number
+```
 
 ### vimtutor 
 
