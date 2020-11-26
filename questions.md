@@ -43,5 +43,13 @@ dpkg -L hplip
 ...
 ```
 
-  
+## What is wtmp and btmp ? 
+
+```
+wtmp : historical data of users being logged in 
+last -f wtmp  # shows the information 
+
+btmp records only failed login attempts.
+last -f btmp 
+```  
   
