@@ -18,6 +18,6 @@ lines 1-1/1 (END)
 # Dies ist auch der Default - Fall 
 # Achtung Achtung: Alle gezeigten Einträge mit # am Anfang sind die Default-Werte (in journald.conf) 
 mkdir /var/log/journal 
-systemctl restart systemd-journald-flush.service 
+systemctl restart systemd-journal-flush.service 
 
 ```
