@@ -14,6 +14,12 @@
   * Kernel as of 2017 does not support bluetooth namespaces 
   * namespacing bluetooth devices 
   * https://github.com/lxc/lxd/issues/3265
+  
+## How is Ubuntu Live Patch working 
+
+  * Module with patches is compiled with patches
+  * modules is loaded and functions are redirected with ftrace 
+  * https://ruffell.nz/programming/writeups/2020/04/20/everything-you-wanted-to-know-about-kernel-livepatch-in-ubuntu.html
 
 
 
