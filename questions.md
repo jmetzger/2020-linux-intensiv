@@ -9,4 +9,13 @@
   * dnf upgrade kernel 
   * be sure to reboot, that new kernel is loaded 
   
+## Why do bluetooth devices not work within lxc containers ? 
+
+  * Kernel as of 2017 does not support bluetooth namespaces 
+  * namespacing bluetooth devices 
+  * https://github.com/lxc/lxd/issues/3265
+
+
+
+  
   
