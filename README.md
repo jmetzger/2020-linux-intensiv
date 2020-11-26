@@ -15,6 +15,7 @@
    1. [scp](scp.md)
    1. [ssh Kommandos auf Zielsystem ausführen](ssh-commands.md) 
    1. [Strings escapen](strings-escapen.md)
+   1. [Vi/vim](vi.md)
    1. [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
    1. [Bash - Programmierung](#2-bash---programmierung) 
    1. [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
@@ -27,7 +28,7 @@
    1. [Hilfreiche Programme](hilfreiche-programme.md) 
    1. [Prozesse](prozesse.md)
    1. [Sudo](sudo.md)
-   1. [Vi](vi.md)
+ 
    1. [Software installieren](software-installieren.md)
    1. [Dienste](dienste.md) 
    1. [Questions](questions.md)
