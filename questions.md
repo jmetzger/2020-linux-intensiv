@@ -30,5 +30,18 @@
 ```
 Docker is developed in the Go language and utilizes LXC, cgroups, and the Linux kernel itself. Since it's based on LXC, a Docker container does not include a separate operating system; instead it relies on the operating system's own functionality as provided by the underlying infrastructure.22.10.2020
 ```
+
+## What is /var/log/hp on Ubuntu ?
+
+```
+# this is created and used by hplip (Hewlett Packard Image Printing) 
+# and is installed by default 
+dpkg -L hplip 
+...
+...
+/var/log/hp
+...
+```
+
   
   
