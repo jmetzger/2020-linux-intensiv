@@ -6,4 +6,5 @@
   
 ## Centos 
 
+  * https://linuxhint.com/compile-linux-kernel-centos7/ # that one I would prefer 
   * https://www.tecmint.com/compile-linux-kernel-on-centos-7/
