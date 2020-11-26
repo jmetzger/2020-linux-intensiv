@@ -16,3 +16,14 @@ ls -la /etc
 ## Komplexe Befehle in Variablen ausführen funktioniert nicht ! 
 
   * https://unix.stackexchange.com/questions/444946/how-can-we-run-a-command-stored-in-a-variable
+
+## Kommandos lokal eingeben und auf zielrechner ausführen (interaktiv) 
+```
+ssh trn01@10.10.11.126 'bash -s'
+```
+
+## Lokales script auf Zielrechner ausführen 
+```
+ssh trn01@10.10.11.126 'bash -s' < lokalesscript.sh
+cat lokalesscript.sh | ssh trn01@10.10.11.126
+```
