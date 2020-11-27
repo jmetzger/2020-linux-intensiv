@@ -52,4 +52,10 @@ last -f wtmp  # shows the information
 btmp records only failed login attempts.
 last -f btmp 
 ```  
-  
+ 
+## numpad with vi and putty 
+
+```
+The answer is in Numpad in PuTTY while using vi [Cialug]:
+
+In the configuration, go to Terminal->Features and check "Disable application keypad mode". Save the settings and enjoy a numeric pad that works!
