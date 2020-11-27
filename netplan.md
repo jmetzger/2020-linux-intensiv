@@ -19,7 +19,7 @@ network:
     version: 2
     renderer: networkd
     ethernets:
-        enp3s0:
+        enp0s3:
             dhcp4: true
 
 # check  changes 
@@ -36,7 +36,7 @@ network:
     version: 2
     renderer: networkd
     ethernets:
-        enp3s0:
+        enp0s3:
             addresses:
                 - 10.10.10.2/24
             gateway4: 10.10.10.1
