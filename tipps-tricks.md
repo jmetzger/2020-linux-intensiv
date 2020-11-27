@@ -33,3 +33,10 @@ apt install tree
 tree /home/centos01 
 
 ```
+
+## Suche nach Konfigurationseinstellung / bzw. Inhalte eines unbekannten Files 
+
+```
+# in which file is this directive 
+grep -r Listen /etc/httpd
+```
