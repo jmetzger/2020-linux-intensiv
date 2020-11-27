@@ -78,8 +78,18 @@ firewall-cmd --permanent --zone=public --remove-service=ssh
 firewall-cmd --reload 
 ```
 
-## Add/Remove ports 
+## Walkthrough apache / adding Port (Centos 8 / Redhat 8 with enabled SELinux (by default))
+
 ```
+
+# /etc/httpd/conf/httpd.conf 
+# add port Listen 82 
+# Try to restart - not working port cannot be bound 
+sealert -a /var/log/audit/audit.log 
+# we will get this info to allow this port 
+semanage port -a -t http_port_t -p tcp 82
+# start apache 
+systemctl start httpd
 firewall-cmd --add-port=82/tcp --zone=public --permanent
 
 ```
