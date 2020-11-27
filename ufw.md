@@ -93,9 +93,9 @@ sudo ufw status verbose
 ufw reset 
 ```
 
+## ufw - port weiterleitung 
 
-
-
+  * https://qastack.com.de/server/238563/can-i-use-ufw-to-setup-a-port-forward
 
 ## References:
 
