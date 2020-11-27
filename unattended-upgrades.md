@@ -19,3 +19,14 @@ APT::Periodic::AutocleanInterval "7"
 
 
 ```
+
+# log - structure 
+```
+ tree /var/log/unattended-upgrades/
+/var/log/unattended-upgrades/
+├── unattended-upgrades-dpkg.log
+├── unattended-upgrades.log
+└── unattended-upgrades-shutdown.log
+
+0 directories, 3 files
+
