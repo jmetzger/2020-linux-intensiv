@@ -6,7 +6,10 @@
 # That's default on Ubuntu 20.04 
 /etc/apt/apt.conf.d/20autoupgrades 
 APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Download-Upgradeable-Packages "1";
 APT::Periodic::Unattended-Upgrade "1";
+# apt autoremove // every 7 days 
+APT::Periodic::AutocleanInterval "7"
 ```
 
   * File 2
