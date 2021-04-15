@@ -26,3 +26,4 @@ systemctl list-units -t service
 ```
 # Alle Ereignisse zu apache2 
 journalctl -u apache2 
+```
