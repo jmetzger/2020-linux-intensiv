@@ -1,5 +1,7 @@
 # Linux Einführung 
 
+## Agenda
+
    1. Grundlagen
       * [Grundlagen](grundlagen.md)
    1. Systemd und Journalctl  
@@ -36,7 +38,7 @@
       * [ssh Kommandos auf Zielsystem ausführen](ssh-commands.md) 
    1. Bash und Bash-Programmierung 
       * [Strings escapen](strings-escapen.md)
-      * [Arbeiten auf der Bash](arbeiten-auf-der-bash.md#)
+      * [Arbeiten auf der Bash](arbeiten-auf-der-bash.md)
    1. Editoren
       * [Vi/vim](vi.md)
    1. Logs 
