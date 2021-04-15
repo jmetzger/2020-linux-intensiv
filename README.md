@@ -5,8 +5,9 @@
    1. Systemd und Journalctl  
       * [Systemd](systemd.md)
       * [journalctl](journalctl.md)
-   1. Bash 
+   1. Bash und Bash Programmierung 
       * [Bash - Grundlegende Befehle der Systemadministration](grundlegende-befehle.md)
+      * [Bash Programmierung](bash-programmierung.md)
    1. Kernel
       * [Kernel Parameter](kernel-params.md)
       * [Kernel kompilieren](kernel-kompilieren.md)
@@ -55,7 +56,4 @@
    1. Fragen,Tipps und Tricks
       * [Questions](questions.md)
       * [Tipps und Tricks](tipps-tricks.md) 
-
-
-
 
