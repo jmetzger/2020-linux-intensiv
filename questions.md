@@ -59,3 +59,4 @@ last -f btmp
 The answer is in Numpad in PuTTY while using vi [Cialug]:
 
 In the configuration, go to Terminal->Features and check "Disable application keypad mode". Save the settings and enjoy a numeric pad that works!
+```
