@@ -1,4 +1,4 @@
-## 10 Übung Dateien filtern / kopieren etc. 
+10 Übung Dateien filtern / kopieren etc. 
 
 ```
 1. Ins Heimatverzeichnis von nobleprog wechseln
@@ -11,3 +11,4 @@ einen beliebigen Text über die Kommandozeile anfügen.
 7. Aus dem Verzeichnis /etc die Datei services in 
 das Heimatverzeichnis des Benutzer nobleprog kopieren.
 8. Alle Zeilen aus services ausgeben, die kein Kommentar (am Anfang der Zeile) enthalten und in die Datei kommentarlos im Heimatverzeichnis des Benutzer nobleprog schreiben.
+```
