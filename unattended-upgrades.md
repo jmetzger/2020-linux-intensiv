@@ -2,6 +2,7 @@
 
   * Automatic security updates in enabled by default on Ubuntu 20.04 LTS 
   * File 1 
+
 ```
 # That's default on Ubuntu 20.04 
 /etc/apt/apt.conf.d/20autoupgrades 
@@ -29,4 +30,4 @@ APT::Periodic::AutocleanInterval "7"
 └── unattended-upgrades-shutdown.log
 
 0 directories, 3 files
-
+```
