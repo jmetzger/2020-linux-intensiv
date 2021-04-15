@@ -1,4 +1,4 @@
-10 Übung Dateien filtern / kopieren etc. 
+Übung Dateien filtern / kopieren etc. 
 
 ```
 1. Ins Heimatverzeichnis von nobleprog wechseln
