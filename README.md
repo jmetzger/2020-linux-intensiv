@@ -15,6 +15,7 @@
       * [Find](find.md)
    1. Verzeichnisse und Dateien 
       * [Grundlegende Ordnerstruktur](grundlegende-ordnerstruktur-fhs.md)
+      * [Grundlegende Dateioperationen](grundlegende-dateioperationen.md)
       * [Ausgabe von Dateien](ausgabe-von-dateien.md)
       * [Ausgabe von gepackten Files / Entpacken von Files](ausgabe-gepackte-files.md)
    1. Suche und Filtern 
