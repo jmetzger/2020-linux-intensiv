@@ -56,6 +56,8 @@
      * [Prozesse](prozesse.md)
   1. Dienste verwalten 
      * [Dienste](dienste.md) 
+  1. Timer 
+     * [Beispiel - Regelmäßiges Scannen mit nmap](nmap-timer.md)  
   1. Fragen,Tipps und Tricks
      * [Questions](questions.md)
      * [Tipps und Tricks](tipps-tricks.md) 
