@@ -63,3 +63,18 @@ ESC + u # eigentlich reicht 1x Escape
 # mehrere Zeilen löschen z.B. 1000
 ESC + 1000dd # ESC - Taste drücken, dann 1000 eingeben, dann dd (sie sehen die 1000 nicht auf dem Bildschirm) 
 ```
+
+### Neues Fenster und Fenster wechseln 
+
+```
+# innerhalb von vi 
+ESC + :  -> vsplit # aktuelles Fenster wird kopiert 
+# Fenster wechseln 
+ESC + : wincmd w 
+# oder 
+STRG + w w 
+```
+
+### Cheatsheet
+
+http://www.atmos.albany.edu/daes/atmclasses/atm350/vi_cheat_sheet.pdf
